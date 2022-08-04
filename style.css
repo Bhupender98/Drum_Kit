@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background: url('/Kit_drum/images/background.jpg'); */
+}
+h1{
+    text-align: center;
+    padding: 8rem;
+    font-size: 4rem;  
+    text-shadow: 2px 2px 3px blue;
+}
+.btnsContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.btnsContainer .btns{
+    height: 5rem;
+    width: 5rem;
+    margin:  0 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.animation {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+.a{
+    background: url(./images/j.jpg);
+    background-size: cover;
+}
+.s{
+    background: url(./images/l.jfif);
+    background-size: cover;
+}
+.d{
+    background: url(./images/l.jfif);
+}
+.f{
+    background: url(./images/l.jfif);
+    background-size: cover;
+}
+.j{
+    background: url(./images/j.jpg);
+    background-size: cover;
+}
+.k{
+    background: url(./images/k.jfif);
+}
+.l{
+    background: url(./images/l.jfif);
+    background-size: cover;
+}
